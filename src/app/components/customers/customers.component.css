@@ -1,0 +1,43 @@
+body{
+   
+    
+    vertical-align: middle;
+    display: flex;
+    font-family: 'Calibri', sans-serif !important;
+	background-color:#eee;
+}
+
+
+.mt-100{
+	
+	margin-top:100px;
+}
+
+.carousel .carousel-indicators li{
+	
+	display:inline-block;
+	width:10px;
+	height:10px;
+	text-indent: -99px;
+	cursor:pointer;
+	border:1px solid #fff;
+	background:#fff;
+	border-radius:2px;
+	
+	
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    height: 20px;
+    color: #273582
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    padding: 50px;
+    
+}
