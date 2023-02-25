@@ -1,0 +1,386 @@
+*,::before,::after{
+    box-sizing: border-box;    
+}
+
+body{
+    margin: 3rem 0 0 0;
+    font-size: .938rem;
+    background: #FFFFFF;
+    color: #000000;
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif;
+    line-height: 2;
+}
+
+.aboutus{
+    margin: 0;
+    margin-top: 10%;
+}
+
+.column_aboutus{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    text-align: center; 
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column_img{
+    float:right;
+    width: 50%;
+    padding: 10px;
+    height: 50px; 
+}
+
+
+.aboutus h1{
+    font-size: 45px;
+    text-align: center;
+    background: hsl(229,53%,96%);
+    color: #000000;
+    font-size: 30px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.aboutus p{
+    font-size: 25px;
+    text-align: center; 
+    color: #000000;
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.mision{
+   margin: 0%;
+}
+
+.column_misionh2{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, #ffffff 6%, #6b7bd6 53%, #1732cc 94%);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column_misionp{
+    float:right;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+}
+
+
+.mision h2{
+    text-align: center;
+    font-size: 40px;
+    color: #FFFFFF;
+    
+}
+
+.mision p {
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.column_visionh3{
+    float: right;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+    background: rgb(23,50,204);
+    background: linear-gradient(90deg, rgba(23,50,204,1) 6%, rgba(109,125,214,1) 53%, rgba(255,255,255,1) 94%);
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column_visionp{
+    float:left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+}
+
+.vision{
+    margin: 0%; 
+}
+
+.vision h3{
+    text-align: center;
+    font-size: 40px;
+    color: #FFFFFF;
+
+}
+
+.vision p{
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.column_valuesh4{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 6%, rgba(109,125,214,1) 53%, rgba(23,50,204,1) 94%); 
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column_valuesp{
+    float:right;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+}
+
+.values{
+    margin: 0%;   
+}
+
+.values h4{
+    text-align: center;
+    font-size: 40px;
+    color: #FFFFFF;
+   
+}
+
+.values p{
+    font-size: 30px;
+    text-align: center; 
+}
+
+
+
+/*
+.airline h5{
+    text-align: center;
+    font-size: 50px;
+    color: hsl(229,53%,45%);
+}
+
+.airline1_container p{
+    font-size: 20px;
+    text-align: center; 
+}
+
+.airline1_content{
+    width: 330px;
+    height: 430px;
+    border-radius: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.column_airline1{
+    float:right;
+    width: 33.3%;
+    padding: 10px;
+    height: 300px; 
+}
+
+.airline2_container p{
+    font-size: 20px;
+    text-align: center; 
+}
+
+.airline2_content{
+    width: 330px;
+    height: 430px;
+    border-radius: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.column_airline2{
+    float:center;
+    width: 33.3%;
+    padding: 10px;
+    height: 300px; 
+}
+
+.airline3_container p{
+    font-size: 20px;
+    text-align: center; 
+}
+
+.airline3_content{
+    width: 330px;
+    height: 430px;
+    border-radius: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+
+
+*/
+
+.airline h5{
+    font-size: 50px;
+    text-align: center;
+    color: hsl(229,53%,45%);
+    font-family:'Montserrat', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .autocard{
+    width: 330px;
+    height: 430px;
+    border-radius: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+
+.container .autocard img{
+    width: 100px;
+    height: 100px;
+}
+
+.container .autocard p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.column1{
+    float:left;
+    width: 33.3%;
+    padding: 10px;
+    height: 300px; 
+}
+
+.column2{
+    float:center;
+    width: 33.3%;
+    padding: px;
+    height: 300px; 
+}
+
+.column3{
+    float:right;
+    width: 33.3%;
+    padding: px;
+    height: 300px; 
+}
+
+
+.story_container h5{
+    text-align: center;
+    font-size: 60px;
+    color: hsl(231, 54%, 33%);
+}
+
+
+.story_container h1{
+    text-align: right;
+    font-size: 20px;
+    color: hsl(231, 54%, 33%);
+}
+
+.story_container p{
+    text-align: right;
+    font-size: 15px;
+    color: #000000;
+    line-height: 25px;
+}
+
+
+
+.story_container ul li{
+    width: 50%;
+    height: auto;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+}
+
+.story_container ul li:nth-child(odd){
+    float: left;
+    clear: right;
+    transform: translateX(-30px);
+    text-align: right;
+}
+
+.story_container ul li:nth-child(even){
+    float: right;
+    clear: left;
+    transform: translateY(30px);
+}
+
+.storycontainer column01{
+    float:left;
+    width: 33.3%;
+    padding: 10px;
+    height: 300px; 
+}
+
+.storycontainer column02{
+    float:center;
+    width: 33.3%;
+    padding: 10px;
+    height: 300px; 
+}
+
+.storycontainer column03{
+    float:right;
+    width: 33.3%;
+    padding: 10px;
+    height: 300px; 
+}
+
+.story_container {
+    width: 100%;
+    color: #ffffff;
+    background: url(https://gestionpyme.com/wp-content/uploads/2015/07/Reuni%C3%B3n-de-negocios.jpg) no-repeat center center/cover;
+    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 2000px;
+}
